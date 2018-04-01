@@ -12,6 +12,7 @@ public:
 	LIB_CPP_API TestClass();
 	LIB_CPP_API ~TestClass();
 	LIB_CPP_API int getNumPublic();
+	LIB_CPP_API void screenCapture();
 
 private:
 	int getNum();

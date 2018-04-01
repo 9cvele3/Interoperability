@@ -12,6 +12,7 @@ namespace CSharpMain
         static void Main(string[] args)
         {
             lib_cpp_wrapper.TestClassWrapper tcw = new TestClassWrapper();
+            
             Console.WriteLine(tcw.getNumPublic());
         }
     }
