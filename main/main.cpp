@@ -9,7 +9,7 @@ extern "C" {
 
 void main()
 {
-	std::cout << getSomeNumber() << " " << getSomeFloat() << "blabla" << std::endl;
+	std::cout << getSomeNumber() << " " << getSomeFloat() << "blabla" << " asdf" << std::endl;
 
 	TestClass tc;
 	std::cout << tc.getNumPublic() << std::endl;
